@@ -7,6 +7,8 @@ body{
    height: calc(100% - 150px);
    width: 100%;
    margin: 0;
+   font-family: Roboto, "Helvetica Neue", sans-serif;
+   font-family: "Open Sans", sans-serif;
    background-image: url(./assets/images/landing.png);
    background-position: center;
    background-attachment: fixed;
@@ -22,28 +24,60 @@ body{
     padding-left: 2.5rem;
 }
 
-/* .col-12{
-    background-color: rgba(180, 149, 149, 0.5);
-    col-6{
-        background-color: rgba(114, 84, 84, 0.5);
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 8px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    height: 32rem;
+    margin-left: 10rem;
+    width: 80%;
+  }
+   
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+   
+  .item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    backdrop-filter: blur(2px);
+    border-radius: 0.5rem;
     }
-} */
 
-.col1{
+    .list{
+        height: 26rem;
+        list-style-type: none;
+        /* margin: rem; */
+        /* background-color: aqua; */
+    }
 
-    border-radius: 0.5rem;
-    background-color: chartreuse;
-    height: 29rem;
-    margin: 2rem;
+    .listHeader{
+        color: red;
+        font-size: large;
+    }
+
+    .ourList{
+        margin: 0.5rem;
+        height: 16%; 
+        font-size: small;
+    }
+
+    .item2{
+     
+    }
+
+    .item3{
+  
+    }
+   
+      .item4{
+    grid-column-start: 2;
+    grid-column-end: 4;
     
-}
-
-.col2{
-    border-radius: 0.5rem;
-    background-color: darkorange;
-    height: 29rem;
-    margin: 2rem;
-    
-}
-
+    }
 
