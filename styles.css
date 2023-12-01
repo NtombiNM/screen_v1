@@ -1,0 +1,15 @@
+html,
+body {
+  height: calc(100% - 150px);
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  background-color: #ececec;
+  background-image: url(./assets/images/landing.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+

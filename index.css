@@ -1,0 +1,49 @@
+/* .container{
+
+} */
+
+body{
+   overflow: hidden;
+   height: calc(100% - 150px);
+   width: 100%;
+   margin: 0;
+   background-image: url(./assets/images/landing.png);
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+
+.navbar{
+    color:  #ececec;
+    background-color: rgba(45, 45, 45, 0.5);
+    height: 5rem;
+    padding-left: 2.5rem;
+}
+
+/* .col-12{
+    background-color: rgba(180, 149, 149, 0.5);
+    col-6{
+        background-color: rgba(114, 84, 84, 0.5);
+    }
+} */
+
+.col1{
+
+    border-radius: 0.5rem;
+    background-color: chartreuse;
+    height: 29rem;
+    margin: 2rem;
+    
+}
+
+.col2{
+    border-radius: 0.5rem;
+    background-color: darkorange;
+    height: 29rem;
+    margin: 2rem;
+    
+}
+
+
