@@ -99,9 +99,9 @@ body{
      color: red;
     }
 
-    .likes{
+    /* .likes{
       height: 20px;
-      width: 20px;
+      width: 25px;
       border-radius: 10px;
       font-size: 10px;
       background-color: lightblue;
@@ -110,8 +110,8 @@ body{
       color: white;
       margin-top: -8px;
       position: absolute;
-      margin-left: 11px;
-    }
+      margin-left: 20px;
+    } */
 
     .red{
       color:red;
@@ -128,7 +128,7 @@ body{
 font-size: 13px;
 }
 .nomination-border{
-  border-bottom: solid 1px red;
+  border-bottom: solid 0.5px red;
 }
     .item2, .item3{
       grid-column:span 1; 
@@ -143,25 +143,21 @@ font-size: 13px;
     
     
     } 
-h4{ color: aqua;}
+h2{ color: aqua;}
 .redd{ 
   color:red;
 
 }
-.likess {
-  height: 20px;
-  width: 20px;
-  border-radius: 10px;
-  font-size: 10px;
-  background-color: lightblue;
-  padding-top: 3px;
-  padding-left: 1px;
-  color: white;
-  margin-top: -8px;
-  position: absolute;
-  left: -20px;
+.bos-likess {
+  background-color: red;
+  border-radius: 5rem;
+  width: 1.5rem;
+  position: relative;
+  top: 0rem;
+  left: 13rem;
 }
-h2{ color: red;}
+
+h5{ color: red;}
 
 
 .item3{
@@ -170,3 +166,21 @@ h2{ color: red;}
   height: 20rem;
   text-align: center;
 }
+
+
+.statistics-container{
+  height:300px;
+  background-color: blue;
+}
+.text-left{
+  margin-top:5px;
+}
+.text-left redd{
+margin-bottom: 0;
+
+}
+.stats{
+  margin-bottom: 30px;
+  color: red;
+}
+
