@@ -26,6 +26,7 @@ section {
   background-position: -490px -67px;
   background-size: 150%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .navbar{
@@ -103,6 +104,7 @@ section {
     /* width: 19rem;
     height: 38rem; */
     background:transparent;
+    min-width: 250px;
  
     }
     .item1 h6{
@@ -191,6 +193,7 @@ font-size: 13px;
 }
     .item2, .item3{
       grid-column:span 1;
+      min-width: 250px;
     }
 
   
@@ -215,4 +218,24 @@ font-size: 13px;
 }
 .border-white{
   border-bottom: 1px solid white;
+}
+
+@media only screen  and (max-width :1150px) {
+  section {
+    background:none;
+    background-position: -490px -67px;
+  }
+  .grid-container {
+    grid-template-columns: repeat( 3, minmax(325px, 325px));
+  }       
+}
+@media only screen  and (min-width: 769px) {
+   section {
+  background-repeat: no-repeat ;
+  background-image: url(./assets/images/landing.png);
+  background-attachment: fixed;
+  background-position: -340px -40px;
+  background-size: 150%;
+  background-attachment: fixed;
+}
 }
