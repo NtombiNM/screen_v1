@@ -67,10 +67,48 @@
     color: white;
     padding: 10px;
     border-radius: 50%;
+    
 }
 
-.stats {
-    padding: 20px 10px;
-    border-top: 1px solid #9d0003;
-    border-bottom: 1px solid #9d0003;
+.hr{
+    color: #fff;
 }
+
+
+.stats{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #9d0003;
+}
+
+.stats1 { 
+    padding: 0.8px;
+}
+
+.one{
+    color: #000;
+}
+
+.stats3{
+    height: 18px;
+}
+
+.stats4{
+    height: 8px;
+    padding: 1px;
+}
+.stats4{
+    height: 8px;
+    padding: 1px;
+}
+
+
+
+.py-3{
+    color: #9d0003;
+}
+
+/* .hrLine{
+  margin-right: 100rem;
+  background-color: #9d0003;
+} */
