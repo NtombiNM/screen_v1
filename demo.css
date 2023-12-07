@@ -1,0 +1,89 @@
+
+body {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  background-image: url(./assets/images/landing.png);
+}
+.box {
+    background-color: rgba(255,255,255, .7);
+    backdrop-filter: blur(2px);
+    /* padding: 10px; */
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.fg-white {
+    color: #fff;
+}
+
+.bg-red {
+    background-color: #9d0003;
+}
+.absa-btn {
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    display: block;color: #fff;
+    transition: all 0.2s;
+}
+
+.absa-btn:hover {
+    transform: scale(1.1);
+}
+.btn-black {
+    background-color: #000;
+    
+}
+.btn-orange {
+    background-color: #f15726;
+}
+.btn-white {
+    background-color: #fff;
+    color: #9d0003
+}
+
+.absa-badge {
+    padding:0 !important;
+    margin: 0;
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    width: 25px;
+    background-color: #9d0003;
+    font-size: 0.8rem;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.stats {
+    padding: 20px 10px;
+    border-top: 1px solid #9d0003;
+    border-bottom: 1px solid #9d0003;
+}
+
+.useless {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: white;
+}
+.usefull {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.bg2 {
+ background-image: url(https://images.pexels.com/photos/19402435/pexels-photo-19402435/free-photo-of-two-horses-standing-in-front-of-a-green-field.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
