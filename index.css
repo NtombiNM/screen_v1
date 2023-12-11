@@ -1,58 +1,62 @@
-
-
-
-  body {
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+body {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-image: url(./assets/images/landing.png);
 }
 
 .box {
-    background-color: rgba(255,255,255, .7);
-    backdrop-filter: blur(2px);
-    /* padding: 10px; */
-    text-align: center;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: rgba(255, 255, 255, .7);
+  backdrop-filter: blur(2px);
+  /* padding: 10px; */
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 .fg-white {
-    color: #fff;
+  color: #fff;
 }
-.navbar{
-  color:  #ececec;
+
+.navbar {
+  color: #ececec;
   background-color: rgba(45, 45, 45, 0.5);
   height: 5rem;
   padding-left: 2.5rem;
 }
 
 .bg-red {
-    background-color: #9d0003;
+  background-color: #9d0003;
 }
+
 .absa-btn {
-    text-decoration: none;
-    width: 100%;
-    padding: 10px;
-    border-radius: 50px;
-    display: block;color: #fff;
-    transition: all 0.2s;
+  text-decoration: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
+  display: block;
+  color: #fff;
+  transition: all 0.2s;
 }
 
 .absa-btn:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
+
 .btn-black {
-    background-color: #000;
-    
+  background-color: #000;
+
 }
+
 .btn-orange {
-    background-color: #f15726;
+  background-color: #f15726;
 }
+
 .btn-white {
-    background-color: #fff;
-    color: #9d0003
+  background-color: #fff;
+  color: #9d0003
 }
 
 .absa-badge {
