@@ -61,14 +61,13 @@
     margin: 0;
     display: block;
     height: 25px;
-    line-height: 28px;
+    line-height: 25px;
     width: 25px;
     background-color: #9d0003;
     font-size: 0.8rem;
     color: white;
     /* padding: 15px; */
     border-radius: 50%;
-    
 }
 
 .hr{
@@ -76,7 +75,7 @@
 }
 
 .bx2{
-    background-color: rgba(255,255,255, .7);
+    background-color: #fff;;
     backdrop-filter: blur(2px);
     /* padding: 10px; */
     text-align: left;
@@ -153,114 +152,31 @@
     }
 }
 
+
 .stats4{
-    margin-top: 0 !important;
-    height: 9px;
-    .col-sm-2{
-      padding-left: 0;
+  height: 7px;
+  .colFour1{
+      height: 30px;
+      margin-top: -15px;
+      padding-top: 0.1rem;
+  }
+  .col-sm-2{
+    height: 30px;
+    margin-top: -15px;
+    padding-top: 0.1rem;
+    padding-left: 0.1rem;
+
+    .absa-badge2 {
+      padding-left: 5px !important;
+      padding-bottom: 22px !important;
+      display: block;
+      height: 25px;
+      line-height: 25px;
+      width: 25px;
+      background-color: #9d0003;
+      font-size: 0.8rem;
+      color: white;
+      border-radius: 50%;
     }
-    /* .row4{
-        margin-top: 0 !important;
-        background-color: aquamarine;
-    } */
+  }
 }
-
-.stats5{
-    height: 9px;
-    .col-sm-2{
-        padding-left: 0;
-    }
-}
-
-/* .row5{
-    padding-left: 2rem;
-    background-color: #f15726;
-    width: 70%;
-} */
-
-
-
-/* .hrLine{
-  margin-right: 100rem;
-  background-color: #9d0003;
-} */
-
-
-
-/* 
-.card-stats{
- 
- text-align: left;
-}
- 
-.statsHead{
-  font-size: 18px;
-  font-weight: lighter;
-  margin-bottom: 10px;
-  color: #bd0404;
-  text-align: center;
-}
- 
-.noms{
- 
-  align-items: left;
-}
- 
-.noms span{
-  font-size: 16px;
-}
- 
-.balmain{
-  font-size: 25px;
-  font-weight: bold;
-  color: #03bfff;
-}
- 
-.noms p{
-  color: #bd0404;
-}
- 
-.statsBorder{
-  border-bottom: solid 1px#bd0404;
-}
- 
-.nom1{
-  font-size: 5px;
-  font-weight: bold;
-  background-color: darkred;
-  border-radius: 50%;
-
-  padding: 5px 10px;
-  margin-left: 220px;
-  color: #ececec;
-}
- 
-.nom2{
-  font-size: 5px;
-  font-weight: bold;
-  background-color: darkred;
-  border-radius: 50%;
-
-  padding: 5px 10px;
-  margin-left: 200px;
-  color: #ececec;
-}
- 
-.bal{
-  font-weight: bold;
-}
- 
-.statsContainer{
-
-  align-items: left;
-  margin-top: 30px;
-  padding-bottom: 20px;
-  padding: 5px 20px 5px;
- 
-}
- 
-.over{
-  display: flex;
-  
-}
-*/
