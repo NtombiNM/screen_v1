@@ -74,3 +74,134 @@
     border-top: 1px solid #9d0003;
     border-bottom: 1px solid #9d0003;
 }
+
+/* News tab or column styles */
+.news-head{
+    color: rgba(255, 255, 255, 0.815);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  
+  .custom-hr{
+    position: absolute;
+    width: calc(100%-40px);
+    margin-left: 30px;
+    background-color: #ececec;
+    margin-right: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+    border: none;
+  }
+
+  .custom-hr::after{
+    content: "";
+    position: relative;
+    top: 0;
+    right: -30px !important;
+    width: 20px;
+    height: 100%;
+    background-color: #ececec;
+  }
+
+  .card-news{
+    width: 100% !important;
+  }
+  
+  .news-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .news-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-wrapper{
+    position: relative;
+  }
+  
+  .news-img{
+    width:150px;
+    height: 140px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .news-content{
+    flex: 1;
+    margin-bottom: 5px;
+  }
+  
+  .news-title{
+    font-size: 23px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.815);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+  }
+  
+  .news-description{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.815);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+  }
+  
+  .date-overlay{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    height: 30px;
+    width: auto;
+    text-align: center;
+    background-color: darkred;
+    padding: 3px 8px;
+    font-size: 9px;
+    color: whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:lighter;
+  }
+  
+  .news-wrapper{
+    overflow-y: scroll;
+    height: 300px;
+    margin-top: 5px;
+    align-items: center;
+    padding: 5px 20px 5px;
+  }
+  
+  ::-webkit-scrollbar-track{
+    background: white;
+    border-radius: 8px;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background: rgb(137, 23, 23);
+    border-radius: 20px;
+  }
+  
+  ::-webkit-scrollbar{
+    background-color: white !important;
+    border-radius: 10px;
+    width: 12px;
+    height: auto;
+  }
+
+  .box2{
+    background-color: rgba(45, 45, 45, 0.5);
+    backdrop-filter: blur(2px);
+    /* padding: 10px; */
+    text-align: left;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
