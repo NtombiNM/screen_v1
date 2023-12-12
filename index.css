@@ -73,3 +73,243 @@ body {
     /* padding: 15px; */
     border-radius: 50%;
 }
+
+.hr{
+  color: #fff;
+}
+
+.bx2{
+  background-color: #fff;;
+  backdrop-filter: blur(2px);
+  text-align: left;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.stats{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #9d0003;
+}
+
+.head2{
+  color: #9d0003;
+  margin-left: 1rem;
+  padding: 10px;
+  font-size: 18px; 
+}
+
+.stats1 { 
+  border-top: 1px solid #9d0003;
+  border-bottom: 1px solid #9d0003;
+  margin: 10px 0;
+  padding-bottom: 5px; 
+  .balDiv{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+  }
+  .availText{
+      font-size: clamp(10px,4vw,17px)
+  }
+  .balance{
+      font-size: 25px;
+      font-weight: bold;
+      color: #000;
+  }
+}
+
+.stats2{
+  border-bottom: 1px solid #9d0003;
+  margin: 10px 0;
+  padding-bottom: 5px;
+  .colTwo{
+    font-size: 20px;
+  }
+  .colThree{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+  }
+  .rowTwo{
+      font-size: clamp(10px,4vw,17px);
+      padding-left: 10px;
+  }
+}
+
+.stats3{
+  border-bottom: 1px solid #9d0003;
+  margin: 10px 0;
+  padding-bottom: 5px; 
+  .colTwo3{
+      font-size: 20px;
+  }
+  .colThree3{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+  }
+  .rowTwo3{
+      font-size: clamp(10px,4vw,17px); 
+      padding-left: 10px;
+  }
+}
+
+
+.stats4{
+border-bottom: 1px solid #9d0003;
+margin: 10px 0;
+padding-bottom: 5px; 
+.colFour1{
+  font-size: clamp(10px,4vw,17px); 
+}
+.col-sm-2{
+  padding-left: 0.9rem;
+  
+  .absa-badge2 {
+    padding-left: 0px !important;
+    padding-bottom: 22px !important;
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    width: 25px;
+    background-color: #9d0003;
+    font-size: 0.8rem;
+    color: white;
+    border-radius: 50%;
+  }
+}
+}
+
+.like-button{
+color: #bd0404;
+width: 1rem;
+font-size: x-large;
+position: absolute;
+right: 48px;
+display: block;
+}
+.margin-t{
+margin-top: 9px !important;
+margin-bottom: 9px !important;
+}
+.header-recent{
+padding: 35px 70px 32px 20px;
+color: #bd0404 !important;
+border-bottom: 1px solid white;
+display: block;
+}
+.header-recent h6 {
+font-size: 1.1em;
+font-weight: 350;
+}
+.reloadcircle { 
+position: absolute;
+width: 40px; 
+height: 40px; 
+border-radius: 50%;
+line-height: 40px;
+border: 3px solid #bd0404;
+background: transparent;
+display: flex;
+align-items: center;
+justify-content: center;
+right: 10px;
+top:15px;
+}
+
+.reloadcircle::before {
+position: absolute;
+width: 40px;
+height: 40px;
+line-height: 40px;
+border-radius: 58px;
+border: 3px solid transparent;
+background: transparent; content: "";
+background: linear-gradient(#bd0404,#f94e1a);
+-webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 2px),#fff 0);
+display: flex;
+align-items: center;
+justify-content: center;
+display: block;
+}
+
+.reload-icon{
+font-size: 1.5rem;
+display: block;
+}
+
+.text-center{
+padding-left: 4rem;
+color: #bd0404;
+font-weight:370;
+}
+
+.nomination p{
+  font-size: 12px;
+  color: #2b2020;
+  font-weight: 600;
+  margin-bottom: 0 !important;
+  margin-top: 4px;
+}
+.nomination{
+  padding: 21px 25px 5px;
+  margin-top:10px;
+  /* border-bottom: solid 1px#bd0404 ; */
+  font-size: 13px;
+  }
+  .red{
+    color: #bd0404;
+  }
+.absa-badge2{
+height: 35px;
+width: 35px;
+border-radius: 25px;
+background-color: #bd0404;
+color: white;
+text-align: center;
+font-size: 1.2rem;
+line-height: 35px;
+display: block;
+}
+.likes-1{
+cursor: pointer;
+display: block;
+}
+
+.nomination-border{
+border-bottom: solid 1px#bd0404 ;
+}
+
+.duration{
+color:#bd0404;
+float: right;
+margin-top: -1rem;
+font-size: 12px;
+}
+
+.text-align{
+text-align: justify;
+}
+.l-h-0-5{
+line-height: 0.5;
+}
+.likes-badge  {
+line-height: 20px;
+height: 20px;
+width: 20px;
+border-radius: 50%;
+font-size: 0.5rem;
+background-color: #03bfff;
+color: white;
+margin-top: -9px;
+position: absolute;
+right: 22px;
+text-align: center;
+}
+
+@media (max-width:1024px) {
+.header-recent{
+  padding: 35px 70px 32px;
+}
+}
