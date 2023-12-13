@@ -34,24 +34,28 @@ body {
 .absa-btn {
   text-decoration: none;
   width: 100%;
-  padding: 10px;
+  padding: 10px 20px;
   border-radius: 50px;
   display: block;
   color: #fff;
   transition: all 0.2s;
+  display: flex;
+  justify-content: space-between;
 }
 
 .absa-btn:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
+
 }
 
 .btn-black {
   background-color: #000;
-
+  color:#fff;
 }
 
 .btn-orange {
   background-color: #f15726;
+  color:#fff;
 }
 
 .btn-white {
@@ -165,7 +169,8 @@ padding-bottom: 5px;
 }
 .col-sm-2{
   padding-left: 0.9rem;
-  
+  display: flex;
+  justify-content: end;
   .absa-badge2 {
     padding-left: 0px !important;
     padding-bottom: 22px !important;
